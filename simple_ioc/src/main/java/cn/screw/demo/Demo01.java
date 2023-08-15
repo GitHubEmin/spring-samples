@@ -31,5 +31,10 @@ public class Demo01 {
         dog.setAge(2);
         dog.setName("Tom");
         System.out.println("dog = " + dog);
+
+        Cat cat = (Cat) container.get("cat");
+        cat.setName("Jerry");
+        cat.setAge(2);
+        System.out.println("cat = " + cat);
     }
 }
